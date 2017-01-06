@@ -1,0 +1,37 @@
+# Site settings
+name: Less Or More
+email: test@163.com
+author: test@163.com
+url: test@163.com
+resume_site: test@163.com
+github: test@163.com
+baseurl: "/homeyi"
+description: Actually, less is more!
+meta_description: test@163.com
+motto: It's our wits that make us men.
+banner: test@163.com。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: luoyan35714
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : test@163.com
+    disqus :
+        short_name : test@163.com
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
